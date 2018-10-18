@@ -1,0 +1,12 @@
+html {
+  background-color: #f5f5dc;
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+}
+form {
+  width: 1000px;
+  margin: auto;
+}
