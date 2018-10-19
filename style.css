@@ -6,7 +6,34 @@ h1 {
   text-align: center;
   font-family: 'Francois One', sans-serif;
 }
-form {
-  width: 1000px;
+body {
+  width: 800px;
+  margin: auto;
+  font-family: 'Mali', sans-serif;
+  font-size: 24px;
+}
+#story > *,
+button#reset {
+  display: none;
+}
+input,
+#button,
+select,
+button {
+  font-size: 22px;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 8px;
+}
+#button,
+button {
+  display: block;
+  margin-top: 10px;
+}
+select {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 24px;
+  width: 120px;
   margin: auto;
 }

@@ -5,30 +5,54 @@
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 	<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+
 </head>
 
 <body>
-	
+
 	<h1>WarriorLibs</h1>
-	
+
 	<form>
-		<input type="text" placeholder="noun" class="noun">
+		<select>
+			<option value="outlaw">Outlaw</option>
+			<option value="george">George</option>
+			<option value="halloween">Halloween</option>
+			<option value="slime">Slime</option>
+		</select>
+		<br>
+		<input type="text" placeholder="noun">
 		<input type="text" placeholder="verb" class="verb">
 		<input type="text" placeholder="nouns" class="nouns">
 		<input type="text" placeholder="name" class="name">
 		<input type="text" placeholder="adjective" class="adjective">
-		<input type="text" placeholder="adjective" class="adjective">
+		<input type="text" placeholder="noun" class="noun">
+		<input type="text" placeholder="noun" class="noun">
 		<input type="button" value="Let's Go!" id="button">
 	</form>
-	
-	<section id="story">
-		<p>
-			In 1521, <span class="name"></span> excommunicated Luther from the <span class="noun"></span>. His defiance and unwillingness to retract any of his <span class="adjective"></span> beliefs about the unlawful practices, <span class="verb"></span> him into both outlaw and heretic. He hid for several <span class="nouns"></span> to escape his fate before returning. He later married a <span class="adjective"></span> nun and raised a family of six.
-		</p>
-	
-	</section>
 
-	
+	<section id="story">
+		<p id="outlaw">
+			In 1521, <span class="name"></span> excommunicated Luther from the <span class="noun"></span>. His defiance and unwillingness to retract any of his <span class="adjective"></span> beliefs about the unlawful practices, <span class="verb"></span> him into both outlaw and heretic. He hid for several <span class="nouns"></span> to escape his fate before returning. He later married a <span class="noun"></span> and raised a family of <span class="noun"></span>.
+		</p>
+		<p id="george">
+			Little is known about George Washington's <span class="noun"></span>, which fostered many of the fables later biographers manufactured to fill in the gap. Among these are the stories that Washington threw a silver <span class="noun"></span> across the Potomac and after chopping down his father's <span class="adjective"></span> cherry tree, he openly confessed to the crime. It is known that from age seven to fifteen, George was home schooled and studied with <span class="name"></span>. But much of the knowledge he would use the rest of his life was through his acquaintance with <span class="nouns"></span> and the plantation foreman. By his early teens, he <span class="verb"></span> growing tobacco, stock raising and surveying.
+		</p>
+		<p id="halloween">
+			Halloween is the time for little <span class="nouns"></span> and goblins to take to the streets, asking for <span class="noun"></span> and scaring one another <span class="noun"></span>. Spooky stories are told around fires, <span class="adjective"></span> movies appear in theaters and pumpkins are expertly (and not-so-expertly) <span class="verb"></span> into <span class="name"></span>-o'-lanterns.
+		</p>
+		<ol id="slime">
+			<li>Pour 1 cup of the <span class="noun"></span> into a beaker, jar, or bowl. If you want colored slime, add food coloring to the <span class="noun"></span> and stir with a stir stick.</li>
+			<li>Add 2 <span class="nouns"></span> of the <span class="noun"></span> into the <span class="adjective"></span> solution and <span class="verb"></span> slowly.</li>
+			<li>Try lifting some of the solution with the stir stick and note what happens.</li>
+			<li>Once the slime has formed, you can play with it. Just don't eat <span class="name"></span>!</li>
+			<li>Your slime will last longer if you seal it in a plastic bag and keep it in the fridge, otherwise it will dry out or mold.</li>
+		</ol>
+
+	</section>
+	<button id="reset">Start Over</button>
+
 	<script src="doTheThings.js"></script>
 </body>
 
